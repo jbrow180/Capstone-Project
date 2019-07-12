@@ -1,0 +1,10 @@
+library(dplyr)
+library(tidyr)
+setwd("~/work")
+Mydata <- read.csv("vsal.csv")
+head(Mydata)
+str(Mydata)
+nrow(Mydata)
+library(ggplot2)
+str(Mydata)
+
